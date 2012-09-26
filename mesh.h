@@ -25,13 +25,13 @@
 
 #include "point.h"
 
-#include <QHash>
-#include <QSet>
-#include <QVarLengthArray>
-#include <QVector>
-#include <QVector3D>
+#include <QtCore/QHash>
+#include <QtCore/QSet>
+#include <QtCore/QVarLengthArray>
+#include <QtCore/QVector>
+#include <QtGui/QVector3D>
 
-#include <QtDebug>
+#include <QtCore/QtDebug>
 
 class Mesh
 {

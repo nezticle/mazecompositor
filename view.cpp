@@ -28,20 +28,20 @@
 #include "mesh.h"
 #include "surfaceitem.h"
 
-#include "waylandinput.h"
+#include <QtCompositor/waylandinput.h>
 
-#include <QGuiApplication>
-#include <QKeyEvent>
-#include <QLineF>
-#include <QMatrix4x4>
-#include <QOpenGLContext>
-#include <QOpenGLFramebufferObject>
-#include <QOpenGLPaintDevice>
-#include <QPainter>
-#include <QTimer>
+#include <QtGui/QGuiApplication>
+#include <QtGui/QKeyEvent>
+#include <QtCore/QLineF>
+#include <QtGui/QMatrix4x4>
+#include <QtGui/QOpenGLContext>
+#include <QtGui/QOpenGLFramebufferObject>
+#include <QtGui/QOpenGLPaintDevice>
+#include <QtGui/QPainter>
+#include <QtCore/QTimer>
 
-#include <qopengl.h>
-#include <qmath.h>
+#include <QtGui/qopengl.h>
+#include <QtCore/qmath.h>
 #include <float.h>
 
 static void frameRendered()

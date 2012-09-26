@@ -24,8 +24,8 @@
 
 #include "camera.h"
 
-#include <QColor>
-#include <QCoreApplication>
+#include <QtGui/QColor>
+#include <QtCore/QCoreApplication>
 
 namespace {
     QByteArray drawTextureVertexSrc =

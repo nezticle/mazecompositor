@@ -23,9 +23,9 @@
 #ifndef CAMERA_H
 #define CAMERA_H
 
-#include <QVector>
-#include <QVector2D>
-#include <QMatrix4x4>
+#include <QtCore/QVector>
+#include <QtGui/QVector2D>
+#include <QtGui/QMatrix4x4>
 
 class Camera
 {

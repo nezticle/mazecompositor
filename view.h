@@ -23,22 +23,22 @@
 #ifndef VIEW_H
 #define VIEW_H
 
-#include <QOpenGLBuffer>
-#include <QOpenGLFunctions>
-#include <QOpenGLShaderProgram>
-#include <QPair>
-#include <QPolygonF>
-#include <QTime>
-#include <QTouchEvent>
-#include <QWindow>
-#include <QVector>
-#include <QVector3D>
+#include <QtGui/QOpenGLBuffer>
+#include <QtGui/QOpenGLFunctions>
+#include <QtGui/QOpenGLShaderProgram>
+#include <QtCore/QPair>
+#include <QtGui/QPolygonF>
+#include <QtCore/QTime>
+#include <QtGui/QTouchEvent>
+#include <QtGui/QWindow>
+#include <QtCore/QVector>
+#include <QtGui/QVector3D>
 
 #include "camera.h"
 #include "map.h"
 
-#include "waylandcompositor.h"
-#include "waylandsurface.h"
+#include <QtCompositor/waylandcompositor.h>
+#include <QtCompositor/waylandsurface.h>
 
 class Entity;
 class Light;

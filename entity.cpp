@@ -26,12 +26,12 @@
 #include "camera.h"
 #include "common.h"
 
-#include <QLineF>
-#include <QImage>
-#include <QPainter>
+#include <QtCore/QLineF>
+#include <QtGui/QImage>
+#include <QtGui/QPainter>
 
-#include <qopengl.h>
-#include <QOpenGLShaderProgram>
+#include <QtGui/qopengl.h>
+#include <QtGui/QOpenGLShaderProgram>
 
 const QImage toAlpha(const QImage &image)
 {

@@ -25,12 +25,12 @@
 #include "camera.h"
 #include "common.h"
 #include "map.h"
-#include "waylandsurface.h"
+#include <QtCompositor/waylandsurface.h>
 
-#include <QGuiApplication>
-#include <QPainter>
-#include <QOpenGLPaintDevice>
-#include <QScreen>
+#include <QtGui/QGuiApplication>
+#include <QtGui/QPainter>
+#include <QtGui/QOpenGLPaintDevice>
+#include <QtGui/QScreen>
 
 QOpenGLShaderProgram *SurfaceItem::m_program = 0;
 

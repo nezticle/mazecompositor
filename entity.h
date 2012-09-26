@@ -23,9 +23,9 @@
 #ifndef ENTITY_H
 #define ENTITY_H
 
-#include <QSize>
-#include <QVector3D>
-#include <QObject>
+#include <QtCore/QSize>
+#include <QtGui/QVector3D>
+#include <QtCore/QObject>
 
 class Camera;
 class Map;

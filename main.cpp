@@ -20,8 +20,8 @@
  * DEALINGS IN THE SOFTWARE.
  */
 
-#include <QGuiApplication>
-#include <QScreen>
+#include <QtGui/QGuiApplication>
+#include <QtGui/QScreen>
 
 #include "view.h"
 

@@ -23,8 +23,8 @@
 #ifndef LIGHT_H
 #define LIGHT_H
 
-#include <QVector>
-#include <QVector3D>
+#include <QtCore/QVector>
+#include <QtGui/QVector3D>
 
 class Camera;
 class Map;

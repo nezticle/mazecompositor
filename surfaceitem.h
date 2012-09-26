@@ -23,13 +23,13 @@
 #ifndef SURFACEITEM_H
 #define SURFACEITEM_H
 
-#include <QImage>
-#include <QTime>
-#include <QVector>
-#include <QVector2D>
-#include <QVector3D>
+#include <QtGui/QImage>
+#include <QtCore/QTime>
+#include <QtCore/QVector>
+#include <QtGui/QVector2D>
+#include <QtGui/QVector3D>
 
-#include <QPropertyAnimation>
+#include <QtCore/QPropertyAnimation>
 
 class Camera;
 class Map;

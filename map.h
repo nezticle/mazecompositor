@@ -23,12 +23,12 @@
 #ifndef MAP_H
 #define MAP_H
 
-#include <QByteArray>
-#include <QTime>
-#include <QVector>
-#include <QVector3D>
+#include <QtCore/QByteArray>
+#include <QtCore/QTime>
+#include <QtCore/QVector>
+#include <QtGui/QVector3D>
 
-#include <qmath.h>
+#include <QtCore/qmath.h>
 
 class Portal
 {

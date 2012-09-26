@@ -22,9 +22,9 @@
 
 #include "camera.h"
 
-#include <QLineF>
+#include <QtCore/QLineF>
 
-#include <qmath.h>
+#include <QtCore/qmath.h>
 
 void Camera::setPitch(qreal pitch)
 {

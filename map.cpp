@@ -22,10 +22,10 @@
 
 #include "map.h"
 
-#include <qmath.h>
+#include <QtCore/qmath.h>
 #include <limits.h>
 
-#include <QQueue>
+#include <QtCore/QQueue>
 
 #include "common.h"
 

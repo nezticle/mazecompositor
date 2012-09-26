@@ -23,9 +23,9 @@
 #ifndef POINT_H
 #define POINT_H
 
-#include <qglobal.h>
+#include <QtCore/qglobal.h>
 
-#include <QVector3D>
+#include <QtGui/QVector3D>
 
 static const double scaling = (1 << 16);
 

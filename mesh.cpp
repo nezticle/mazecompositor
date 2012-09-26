@@ -22,7 +22,7 @@
 
 #include "mesh.h"
 
-#include <QRectF>
+#include <QtCore/QRectF>
 
 void Mesh::addFace(const QVector<Point> &face)
 {
