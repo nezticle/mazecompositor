@@ -15,3 +15,16 @@ QT += gui compositor
 # Input
 SOURCES += main.cpp view.cpp mesh.cpp camera.cpp entity.cpp surfaceitem.cpp map.cpp light.cpp common.cpp
 HEADERS += view.h point.h mesh.h camera.h entity.h surfaceitem.h map.h light.h
+
+OTHER_FILES += boiler_plate.jpg \
+               boiler_plate_rust.jpg \
+               noise.jpg \
+               screenshot.png \
+               soldier
+
+linux-rasp-pi-g++{
+    assets.path = /opt/apps/mazecompositor
+    assets.files = $$OTHER_FILES
+    target.path = /opt/apps/mazecompositor
+    INSTALLS += target assets
+}
